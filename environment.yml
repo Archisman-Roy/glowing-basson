@@ -1,0 +1,9 @@
+name: my-pytorch-env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - pip:
+    - -r requirements.txt  # If you have additional Python packages
